@@ -87,6 +87,8 @@ void task4(int n,int *array)
                 array[j + 1] = new_peremen;
             }
         }
+    }
+    for (int i = 0; i < n; i++) {
         for (int j = 0; j < n - 1; j++) {
             if (array[j] % 10 == array[j + 1] % 10) {
                 int new_peremen = array[j];
